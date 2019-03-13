@@ -45,7 +45,6 @@
   (reduce calc-track-reducer [initial #{}] (cycle input)))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   []
   (do (println (str "Part 1: " (part1 0)))
       (println (str "Part 2: " (part2 0)))))
